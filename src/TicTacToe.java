@@ -54,7 +54,7 @@ public class TicTacToe {
 		}		
 	}
 	
-	public static void printGameBoard(char[][] gameBoard) {
+	public static void printGameBoard(char[][] gameBoard) { //prints the bidimensional array
 		
 		for (char[] row : gameBoard) {
 			for (char c : row) {
